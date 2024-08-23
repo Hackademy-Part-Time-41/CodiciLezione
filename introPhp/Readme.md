@@ -41,3 +41,32 @@ Built-inf
 
 Array = LISTA ORDINATA DI ELEMENTI (ORDINATA IN BASE AD UN INDICE)
 Gli indici di un array partono da 0
+
+
+FUNZIONI
+- Una funzione è una astrazione che ci permette di etrarre un pezzo di codice, incapsularlo per poi richiamarlo quando ne abbiamo bisogno. Facendo attenzione però che questo blocco di codice sia più generico possibile.
+
+ASTRATTO = GENERICO
+
+DRY = Don't repeat yourself
+
+BUILT-IN FUNCTION & USER FUNCTION
+
+BUILT-IN FUNCTION -> Sono le funzioni che ci vengono date dal linguaggio di programmazione che stiamo utilizzando e che non è necessario capirne l'implementazione ma ci servono semplicemente per il risultato che ci restituiscono.
+
+USER FUNCTION -> Sono le funzioni che creiamo noi
+
+Le funzioni prendono anche il nome di METODI
+Quando dichiariamo una funzione ed inseriamo il codice al suo interno si dice che stiamo istruendo la logica
+
+ATTENZIONE
+- Nelle funzioni la posizionalità dei paramteri è fundamentale
+
+SCOPE E VISIBILITà
+In php le funzioni hanno scope locale, tutto ciò che è al loro interno non è visibile all'esterno A MENO CHE NON LO FACCIO USCIRE, di contro tutto ciò che è all'esterno della funzione non è visibile al suo interno A MENO CHE NON LO FACCIO ENTRARE
+
+LE COSTANTI hanno SCOPE GLOBALE
+
+EXTRACT -> Estraiamo un blocco di codice
+INCAPSULATE -> Lo incapsuliamo all'interno di una funzione
+ABSTRACT -> Lo rendiamo generico
