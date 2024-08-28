@@ -23,3 +23,37 @@ Negozio
 - orari apertura
 - indirizzo
 - valore dei saldi
+
+Ereditarietà
+- Singola = Un foglio eredita di un unico padre, un padre può avere più figli
+    - Php è a ereditarietà singola
+- Multipla = Un figlio eredita da più padre e più padri possono avere più figli
+
+Visibilità dei metodi
+Il figlio vede TUTTO quello che è presente nel padre, il padre non ha idea ne di chi siano i figli ne di cosa sono composti
+
+Dominio applicativo
+- La porzione di mondo reale che dobbiamo rendere digitale
+- Business sul quale dovete lavorare:
+    - Banca
+    - Pubblica amministrazione
+    - Istruzione
+    - ......
+
+Aulab
+- Docenti
+- Studenti
+
+In php il costruttore viene definito Magic Method
+
+MODIFICATORI DI ACCESSO
+- public -> Acesso in lettura e scrittura da qualsiasi parte del codice
+- private -> Accesso in lettura e scrittura SOLO E SOLTANTO nella classe in cui sono dichiarati
+- protected -> Acesso in lettura e scrittura solo dall'interno della classe in cui sono dichiarati ma anche dalle classi figlie
+
+TRAIT
+- Ci permettono di creare un set di istruzioni riutilizzabili in qualsiasi classe
+
+
+Negozi di abbigliamento
+Le concessionarie
